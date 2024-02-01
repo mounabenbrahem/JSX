@@ -9,11 +9,11 @@ import Card from 'react-bootstrap/Card';
 import Image from './components/Image';
 
 function App() {
-  const myName = true;
+  const myName = "";
   return (
     <div className="">
       {/* Condition */}
-      {myName ? <Card/> : "Welcome"}
+      {myName ? <div><h1>Hello {myName}</h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsGZu7cv6cp7Pi8i6vX6zflA9r9M2aIv2lw&usqp=CAU" alt="" /></div> : <h1>Hello, there!</h1>}
       {/* Image */}
       <Card style={{ width: '18rem' }}>
       <Card.Body>
